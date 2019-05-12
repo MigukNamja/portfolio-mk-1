@@ -29,6 +29,15 @@ $background-opacity: 0.7;
   }
 }
 
+// Set text color so it reacts to the background
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 // Media query mixins (functions)
 @mixin mediaSm {
   // Only applies if 500 pixels or less in width

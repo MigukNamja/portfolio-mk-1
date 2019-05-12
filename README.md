@@ -18,16 +18,17 @@ This a basic portfolio with the following content:
 - HTML5
 - SASS (CSS3)
 - JS (ES6)
+- Visual Studio Code
 
-A framework tool e.g. Vue, React, Angular, etc. was _not_ used.
+A framework tool e.g. Vue, React, Angular, etc. was _not_ used. This was useful to get a better understanding of what vanilla JS and SASS can do and not rely on Bootstrap, Vuetify, Vuex, etc.
 
 ## Credits
 
-This was made by watching Brad Traversy's "Responsive Portfolio Website Project" and following along.
+This was made by watching Brad Traversy's "[Responsive Portfolio Website Project][video]" and following along.
 
-[https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU]
+[video]: https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU
 
-I watched and follow along a couple of times, both time starting from scratch so I develop muscle memory. I also paused if I didn't understand new syntax to go read up on it.
+I watched and followed along a couple of times, both times starting from scratch to develop muscle memory. I paused and read up on syntax, etc. if I didn't understand it.
 
 ## Next
 

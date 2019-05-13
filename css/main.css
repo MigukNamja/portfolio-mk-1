@@ -160,26 +160,26 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
-.resume-info {
+.about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bio-image bio bio" "job-1 job-2 job-3";
   grid-template-columns: repeat(3, 1fr); }
-  .resume-info .bio-image {
+  .about-info .bio-image {
     grid-area: bio-image;
     margin: auto;
     border-radius: 50%;
     border: #738eed 3px solid; }
-  .resume-info .bio {
+  .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .resume-info .job-1 {
+  .about-info .job-1 {
     grid-area: job-1; }
-  .resume-info .job-2 {
+  .about-info .job-2 {
     grid-area: job-2; }
-  .resume-info .job-3 {
+  .about-info .job-3 {
     grid-area: job-3; }
-  .resume-info .job {
+  .about-info .job {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #738eed 5px solid; }
@@ -190,7 +190,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    background: #777777; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #738eed;
@@ -227,7 +228,8 @@ main {
 
 .btn-light {
   background: black;
-  color: #fff; }
+  color: #fff;
+  display: none; }
 
 .btn-dark {
   background: #c4c4c4;
@@ -274,7 +276,7 @@ main {
       background: url("../img/portrait-150.jpg");
       width: 150px;
       height: 150px; }
-  .resume-info {
+  .about-info {
     grid-template-areas: "bio-image" "bio" "job-1" "job-2" "job-3";
     grid-template-columns: 1fr; }
   .projects {

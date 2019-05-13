@@ -84,7 +84,7 @@ main {
   }
 }
 
-.resume-info {
+.about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
@@ -132,6 +132,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    background: lighten($primary-color, 20);
 
     &:hover {
       opacity: 0.5;
@@ -185,6 +186,7 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: #fff;
+  display: none;
 }
 
 .btn-dark {
